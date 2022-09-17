@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html
+{
+	scroll-behavior: smooth;
+}
+
+@layer base {
+	ul, ol {
+	list-style: revert;
+	}
+
+	.correct-mark li::marker
+	{
+		content : "✅";
+	}
+
+	.commmunity-mark li::marker
+	{
+		content : "💬";
+	}
+}
