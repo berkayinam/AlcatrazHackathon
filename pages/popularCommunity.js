@@ -33,7 +33,7 @@ const CommunityCard = () => {
 			<div className="w-[400px] h-[225px]"><Image src="https://placeimg.com/400/225/arch" alt="GroupFoto" width="400" height="225" /></div>
 			<div className="card-body">
 				<h2 className="card-title text-white">Lorem Ipsum</h2>
-				<p className="text-white">How to park your car at your garage?</p>
+				<p className="text-white">Hadi Topluluğumuza Katıl.</p>
 				<div className="card-actions justify-between">
 					<AvatarCounter/>
 					<button className="btn text-white">Learn now!</button>
