@@ -19,15 +19,23 @@ const Navbar = () => {
 								<svg className="fill-current" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" /></svg>
 							</a>
 							<ul className="p-2 bg-white">
-								<li><a>Populer Topluluklar</a></li>
-								<li><a>Topluluk Olustur</a></li>
+								<li>
+									<Link href="popularCommunity">
+										<a>Populer Topluluklar</a>
+									</Link>
+								</li>
+								<li>
+									<Link href="createCommunity">
+										<a>Topluluk Olustur</a>
+									</Link>
+								</li>
 							</ul>
 						</li>
 						<li><a>Item 3</a></li>
 					</ul>
 				</div>
 				<Link href="/">
-					<a className="btn btn-ghost normal-case text-xl">daisyUI</a>
+					<a className="btn btn-ghost normal-case text-xl">Alcatraz</a>
 				</Link>
 			</div>
 			<div className="navbar-center hidden lg:flex">
@@ -41,19 +49,24 @@ const Navbar = () => {
 							<svg className="fill-current" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" /></svg>
 						</a>
 						<ul className="p-2 bg-white">
-							<li><a>Populer Topluluklar</a></li>
-							<li><a>Topluluk Olustur</a></li>
+							<li>
+								<Link href="popularCommunity">
+									<a>Populer Topluluklar</a>
+								</Link>
+							</li>
+							<li>
+								<Link href="createCommunity">
+									<a>Topluluk Olustur</a>
+								</Link>
+							</li>
 						</ul>
 					</li>
 					<li><a>Egitim Al</a></li>
 					<li><a>Egitim Ver</a></li>
 				</ul>
 			</div>
-			<div className="navbar-end flex justify-end gap-2">
-				<a className="btn">Get started</a>
-				<Link href="chat">
-					<a className="btn">LogIn</a>
-				</Link>
+			<div className="navbar-end flex justify-center gap-2 p-2">
+				<ion-icon name="settings-outline" size="large"></ion-icon>
 			</div>
 		</div>
 	);
