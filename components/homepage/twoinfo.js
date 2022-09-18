@@ -17,7 +17,7 @@ const TwoInfo = () => {
 						<li>Facebook'ta sosyalleşebilir ve insanlarla iletişime geçebilirsin</li>
 					</ul>
 					<br/>
-					<p>Ama yalnızca Kommunity'de bu özelliklerin mükemmel bir karışımını, dünyanın her yerindeki toplulukların ihtiyaçlarına uyacak şekilde bulabilirsiniz.</p>
+					<p>Ama yalnızca Alcatraz'da bu özelliklerin mükemmel bir karışımını, dünyanın her yerindeki toplulukların ihtiyaçlarına uyacak şekilde bulabilirsiniz.</p>
 				</div>
 				<div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
 					<Image className="object-cover object-center rounded" alt="hero" src={Community}></Image>

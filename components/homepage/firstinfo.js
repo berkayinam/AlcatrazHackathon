@@ -17,7 +17,7 @@ const FirstInfo = () => {
 						<li className="mb-2">Haberleşmek, öğrenmek ve birlikte çalışmak için topluluğunuzu tek bir yerde toplayın.</li>
 						<li className="mb-2">Tüm organizasyon sürecinizi tek bir platformdan yürütün.</li>
 						<li className="mb-2">Otomatik hatırlatıcılarla topluluk üyelerinizin etkinliklerinize yeniden katılımını artırın</li>
-						<li className="mb-2">Kommunity'nin uluslarası kullanıcıları ile etkinliklerinizin kapsamını artırın</li>
+						<li className="mb-2">Alcatraz'ın  uluslarası kullanıcıları ile etkinliklerinizin kapsamını artırın</li>
 					</ol>
 				</div>
 			</div>
